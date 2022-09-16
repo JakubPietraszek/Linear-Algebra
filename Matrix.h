@@ -7,7 +7,7 @@ class Matrix
 public:
 	void setMatrix(std::vector<std::vector<int>> matrix);
 	int& at(int x, int y);
-	Vector operator*(Vector vec);
+	/*Vector operator*(Vector vec);*/
 	Matrix generateIdentityMatrix();
 	friend bool operator == (Matrix leftOne, Matrix rightOne);
 };
