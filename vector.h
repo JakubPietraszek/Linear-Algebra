@@ -18,7 +18,4 @@ public:
 	Vector operator/(int scalar);
 	friend bool operator == (Vector leftOne, Vector rightOne);
 	friend bool operator != (Vector leftOne, Vector rightOne);
-	
-
-
 };
